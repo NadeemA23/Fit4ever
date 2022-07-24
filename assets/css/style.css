@@ -125,5 +125,6 @@ footer {
     margin-top: 4px;
     border-top: 2px solid ;
     border-bottom: 2px solid ;
-    background-color: #777777;
+    background-color:black;
+    text-align: center;
 }
