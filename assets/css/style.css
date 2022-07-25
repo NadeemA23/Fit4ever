@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 
 body{
     font-family: Exo;
     color:crimson;
-    background-color:lightblue;
+    background-color:aliceblue;
 }
 
 .title {
@@ -22,8 +24,9 @@ text-right{
 }
 
 h1{
-    font-family: Josefin;
-    letter-spacing: 3px;
+    font-family: Anton;
+    letter-spacing: 4px;
+    text-transform:uppercase;
     font-size: 350%; 
     color:black;
 }
@@ -54,26 +57,28 @@ text-align: right;
     border-bottom: 2px solid ;
 }
 
-#leftbox{
-    background-color:#777777;
-    display:inline-block;
+.leftbox {
+    background-color:black;
     color:aliceblue;
-    width:33%;
 }
-#middlebox{
-    background-color:#777777;
-    display:inline-block;
+.middlebox{
+    background-color:darkgray;
     color:aliceblue;
-    width:33%;
 }
-#rightbox{
-    background-color:#777777;
-    display:inline-block;
+.rightbox{
+    background-color:black;
     color:aliceblue;
-    width:33%;
 }
 
-
+.SAFETY {
+    color: #00aced;
+    font-family:Exo;
+}
+.logos{
+    font-family: Anton;
+    color:black;
+    font-size: 150%;
+}
 #pictures {
     clear: both;
     line-height: 0;
@@ -114,12 +119,19 @@ text-align: right;
 
   .fa-instagram:hover ,
 
-
+#email:hover { 
+    background-color: #777777;
+}
+#call:hover {
+    background-color: #777777;
+}
 
 .contact {
     font-size: 200%;
-    font-family: Josefin;
+    font-family: Anton;
     color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 
@@ -139,18 +151,29 @@ text-align: right;
 }
 
 .mapbox{
-    background-color:#00aced;
+    background-color:#777777;
+}
+
+.maph1{
+    font-family: Anton;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 250%; 
 }
 
 .timebox{
-    background-color:#00aced;
+    background-color:darkgrey;
+    border: 1px solid #777777;
 }
 
 .times {
     color: rgb(255, 255, 255);
-    font-family: Josefin;
+    font-family: Anton;
     letter-spacing: 3px;
     font-size: 250%; 
+    text-transform: uppercase;
+    
 }
 
 .timesp {
@@ -165,10 +188,11 @@ text-align: right;
     text-align:center;
     margin-top: auto;
 }
+
     
 
 footer {
-    margin-top: 4px;
+    margin-top: 0px;
     border-top: 2px solid ;
     border-bottom: 2px solid ;
     background-color:black;
