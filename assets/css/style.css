@@ -94,17 +94,17 @@ text-align: right;
 
   .fa-facebook {
     color: #3b5998;
-    font-size: 200%;
+    font-size: 300%;
   }
   
   .fa-twitter{
     color: #00aced;
-    font-size: 200%;
+    font-size: 300%;
   }
   
   .fa-instagram{
     color: #517fa4;
-    font-size: 200%;
+    font-size: 300%;
   }
   
 
@@ -114,28 +114,14 @@ text-align: right;
 
   .fa-instagram:hover ,
 
-  
 
 
-
-
-
-
-
-
-
-
-
-
-
-.col-4 {
-    border: 1px solid #e84610;
-}
-
-#contact {
-    font-size: 159%;
+.contact {
+    font-size: 200%;
     font-family: Josefin;
+    color: white;
 }
+
 
 #email{
     background-color:black;
@@ -143,9 +129,6 @@ text-align: right;
 
 #call {
     background-color: black;
-}
-.col-8 {
-    border: 1px solid #777777;
 }
 
 #map {
@@ -156,19 +139,25 @@ text-align: right;
 }
 
 .mapbox{
-    background-color:aliceblue;
+    background-color:#00aced;
 }
 
 .timebox{
-    background-color:#777777;
+    background-color:#00aced;
 }
 
 .times {
-    color: aqua;
+    color: rgb(255, 255, 255);
     font-family: Josefin;
     letter-spacing: 3px;
     font-size: 250%; 
-    text-align: center;
+}
+
+.timesp {
+    color: white;
+    font-family: exo;
+    letter-spacing: 3px;
+    font-size: 150%; 
 }
 
 #hours {
