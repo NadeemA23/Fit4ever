@@ -72,13 +72,17 @@ text-align: right;
 
 .SAFETY {
     color: #00aced;
-    font-family:Exo;
-}
-.logos{
     font-family: Anton;
+    letter-spacing: 3px;
+}
+
+.logos{
+    font-family: Exo;
     color:black;
     font-size: 150%;
+    letter-spacing: 2px;
 }
+
 #pictures {
     clear: both;
     line-height: 0;
@@ -189,7 +193,37 @@ text-align: right;
     margin-top: auto;
 }
 
-    
+.reviewh5 {
+    font-family: Anton;
+    text-transform: uppercase;
+    font-size: 200%;
+    color:black;
+    letter-spacing: 3px;
+}
+
+.star {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.reviewbox {
+    background-color: #00aced;
+    width: 100%;
+}
+
+.reviews {
+    font-family: exo;
+    font-size: 120%;
+    text-align: center;
+    color: white;
+}
+
+.review1 , .review3 , .review5 {
+    background-color: black;
+}
+
+.review2 , .review4 , .review6 {
+    background-color: #777777;
+}
 
 footer {
     margin-top: 0px;
