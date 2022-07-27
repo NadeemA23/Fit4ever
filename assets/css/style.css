@@ -123,12 +123,6 @@ text-align: right;
     text-align: left;
 }
 
-.homepics {
-        margin-bottom: 5;
-        padding-bottom: 5;
-
-}
-
 
   .fa-facebook {
     color: #3b5998;
@@ -248,6 +242,30 @@ text-align: right;
 .review2 , .review4 , .review6 {
     background-color: #777777;
 }
+
+
+
+
+.sessions{
+    background-image: url('http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png');
+}
+
+.sessions div {
+    color: #fafafa;
+    background-color: rgba(0,0,0, .6);
+    width: 19%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    margin: 2px;
+    display: inline-block;
+}
+
+.sessions h2 {
+    color: #fafafa;
+}
+
 
 footer {
     margin-top: 0px;
