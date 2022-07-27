@@ -99,6 +99,35 @@ text-align: right;
 
 
 
+.home1 {
+    padding-right: 1;
+
+    text-align: right;
+}
+
+.home2 {
+    padding-left: 1;
+
+    text-align:left;
+}
+
+.home3 {
+    padding-right: 1;
+
+    text-align: right;
+}
+
+.home4 {
+    padding-left: 1;
+
+    text-align: left;
+}
+
+.homepics {
+        margin-bottom: 5;
+        padding-bottom: 5;
+
+}
 
 
   .fa-facebook {
