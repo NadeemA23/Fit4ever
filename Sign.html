@@ -37,41 +37,64 @@
               </div>
               </section></nav>
 
-            <form>
-                <h2>Lets Get You Signed Up!</h2>
-                  <div class="row">
-                    <div class="col">
-                      <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    <div class="col">
-                      <input type="password" class="form-control" placeholder="password"></div>
+              <section class="form-section">
+                <form class="form" method="POST">
+                  <h2 class="h2sign">Lets Get You Signed Up!</h2>
 
-                      <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  <form>
+                    <div class="form-row pt-3">
+                      <div class="form-group col-md-6">
+                        <label for="inputName">First Name</label>
+                        <input type="fname" class="form-control" id="inputName" placeholder="First Name" required>
                       </div>
-                      <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                    
+                      <div class="form-group col-md-6">
+                        <label for="inputLName">Last Name</label>
+                        <input type="lname" class="form-control" id="inputLName" placeholder="Last Name" required>
+                      </div>
+                 
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password" required>
+                      </div>
                     </div>
-                  </div>
-                </form>
-
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-
+                    <div class="form-group">
+                      <label for="inputAddress2">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Apartment, studio, or floor" required>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity" required>
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputCountry">Country (UK)</label>
+                        <select id="inputCountry" class="form-control" required>
+                          <option selected>Wales</option>
+                          <option>England</option>
+                          <option>Scotland</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputPostcode">Postcode</label>
+                        <input type="text" class="form-control" id="inputPostcode">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Check me out
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sign up</button>
+                  </form>
+        
+                </form></section>
   </div></div>
     <footer>
         <span>Quick Links:</span>

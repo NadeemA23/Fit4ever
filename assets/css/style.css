@@ -250,6 +250,36 @@ text-align: right;
 
 }
 
+.h2sign {
+    text-align: center;
+    font-family: anton;
+    letter-spacing: 2px;
+    font-size: 250%;
+    text-transform: uppercase;
+    color: black;
+}
+
+.form-section {
+   
+    background: url("https://images.pexels.com/photos/3768916/pexels-photo-3768916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    width: 2500px;
+}
+
+.form{
+    margin-top: 100px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 800px;
+    position: absolute;
+    left: 5%;
+    padding: 30px;
+}
+
+
+
 
 footer {
     margin-top: 0px;
