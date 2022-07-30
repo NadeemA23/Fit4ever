@@ -23,6 +23,14 @@ text-right{
     text-align: right;
 }
 
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
 h1{
     font-family: Anton;
     letter-spacing: 4px;
@@ -278,8 +286,66 @@ text-align: right;
 }
 
 
+.ptleft {
+    position: relative;
+    color: aliceblue;
+    background-color:#777777;
+    left: 70px;
+    top: -15px;
+    padding-right: 4%;
+    margin-top: 2%;
+    
+    
+}
 
+.ptmiddle {
+    position: relative;
+    color: aliceblue;
+    background-color:black;
+    z-index: 1;
+}
 
+.ptright {
+    position: relative;
+    color: aliceblue;
+    background-color:#777777;
+    right: 70px;
+    top: -15px;
+    padding-left: 4%;
+    margin-top: 2%;
+}
+
+.test1 , .test2 , .test3 , .test4 , .test5 , .test6 {
+    background-color: #000000;
+    border: 1px solid #000000;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    color: white;
+ 
+}
+
+.fa-star{
+    color: yellow;
+}
+
+.testh2 {
+    font-family: Anton;
+    font-size: 300%;
+    letter-spacing: 2px;
+    color:#000000;
+}
+
+.meet {
+    font-family: Anton;
+    font-size: 300%;
+    letter-spacing: 2px;
+    color: #000000;
+}
+.face1 {
+    background-size:cover;
+    background-position: center;
+    
+}
 footer {
     margin-top: 0px;
     border-top: 2px solid ;
