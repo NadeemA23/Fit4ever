@@ -39,10 +39,6 @@ h1{
     color:black;
 }
 
-.navh1 {
-    color:black;
-}
-
 #FB {
 text-align: right;
 }
@@ -54,14 +50,14 @@ text-align: right;
 }
 
 .navbar-brand {
-    border-bottom: 1px solid #777777;
+    border-bottom: px solid #777777;
     font-size: 150%;
     list-style-type: none;
     letter-spacing: 0px;
 }
 
 .carousel {
-    margin-top: 4px;
+    padding-top: 2px;
     border-bottom: 2px solid ;
 }
 
@@ -224,32 +220,6 @@ text-align: right;
     margin-top: auto;
 }
 
-.reviewh5 {
-    font-family: Anton;
-    text-transform: uppercase;
-    font-size: 200%;
-    color:black;
-    letter-spacing: 3px;
-}
-.reviewbox {
-    background-color: #00aced;
-    width: 100%;
-}
-
-.reviews {
-    font-family: exo;
-    font-size: 120%;
-    text-align: center;
-    color: white;
-}
-
-.review1 , .review3 , .review5 {
-    background-color: black;
-}
-
-.review2 , .review4 , .review6 {
-    background-color: #777777;
-}
 
 .trainer1 {
     width: 100%;
