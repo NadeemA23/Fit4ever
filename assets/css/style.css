@@ -36,20 +36,21 @@ h1{
     text-transform:uppercase;
     font-size: 350%; 
     color:rgb(255, 255, 255);
+    border-bottom: 3px solid #CC0000;
 }
 
-#FB {
-text-align: right;
-}
+
 
 
 
 .container1 a:hover {
     border-bottom: 1px solid #620f6b;
 }
+.home , .nav2 , .nav3 , .nav4{
+    border-bottom: 3px solid #CC0000;
+}
 
 .navbar-brand {
-    border-bottom: px solid #777777;
     font-size: 150%;
     list-style-type: none;
     letter-spacing: 0px;
@@ -60,23 +61,32 @@ text-align: right;
     border-bottom: 2px solid ;
 }
 
+.title1 , .title2 , .title3 {
+    border: 3px solid #ffffff;
+}
+
+.sectionbox {
+    border-top: 3px solid #CC0000;
+}
+
 .leftbox {
-    background-color:black;
     color:aliceblue;
 }
 .middlebox{
-    background-color:darkgray;
     color:aliceblue;
 }
 .rightbox{
-    background-color:black;
     color:rgb(255, 240, 241);
 }
 
-.SAFETY {
-    color: #00aced;
+.safetybox {
     font-family: Anton;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
+    text-transform:uppercase;
+    font-size: 250%; 
+    color:rgb(255, 255, 255);
+    border: 3px solid #ffffff;
+      border-style:groove;
 }
 
 .logos{
@@ -94,12 +104,14 @@ text-align: right;
     text-transform:uppercase;
     font-size: 350%; 
     color:rgb(255, 255, 255);
-      border: 3px solid #CC0000;
+    border: 3px solid #ffffff;
       border-style:groove;
 }
+
 .homepics {
-    border-top: 3px solid #CC0000;
+   
     border-bottom: 3px solid #CC0000;
+    padding-bottom: 1%;
 }
 
 #pictures {
@@ -160,34 +172,42 @@ text-align: right;
   }
   
 
-  .fa-facebook:hover ,
+  .fa-facebook:hover{
+    color: #CC0000;
+  } 
   
-  .fa-twitter:hover ,
+  .fa-twitter:hover{
+    color: #CC0000;
+  } 
 
-  .fa-instagram:hover ,
+  .fa-instagram:hover{
+    color: #CC0000;
+  } 
 
 #email:hover { 
-    background-color: #777777;
+    background-color: #60de60;
 }
 #call:hover {
-    background-color: #777777;
+    background-color: #60de60;
 }
 
 .contact {
-    font-size: 200%;
+    font-size: 250%;
     font-family: Anton;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
     letter-spacing: 3px;
+    border: 3px solid #ffffff;
+    border-style:groove;
 }
 
 
 #email{
-    background-color:black;
+    background-color:#cccccc;
 }
 
 #call {
-    background-color: black;
+    background-color: #cccccc;
 }
 
 #map {
@@ -197,36 +217,40 @@ text-align: right;
 }
 
 .mapbox{
-    background-color:aliceblue;
-    border-top: 2px solid #000000;
-    border-style:double;
+    border-right: 3px solid #CC0000;
+    border-bottom: 3px solid #CC0000;
+   
 }
 
 .maph1{
     font-family: Anton;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 250%; 
+    border: 3px solid #ffffff;
+    border-style:groove;
+    
 }
 
 .timebox{
-    background-color:rgba(0, 242, 255, 0.408);
-    border-top: 2px solid #000000;
-    border-style:double;
+    border-bottom: 3px solid #CC0000;
+   
 }
 
 .times {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Anton;
     letter-spacing: 3px;
     font-size: 250%; 
     text-transform: uppercase;
+    border: 3px solid #ffffff;
+    border-style:groove;
     
 }
 
 .timesp {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: exo;
     letter-spacing: 3px;
     font-size: 150%; 
@@ -310,7 +334,13 @@ text-align: right;
     margin-right: 1%;
     margin-bottom: 2%;
     color: rgb(0, 0, 0);
- 
+    
+      border-style:groove;
+}
+
+.review {
+    border-bottom: 3px solid #CC0000;
+    padding-bottom: 2%;
 }
 
 .home1 , .home2 , .home3 , .home4 {
@@ -327,9 +357,13 @@ text-align: right;
 
 .testh2 {
     font-family: Anton;
-    font-size: 300%;
-    letter-spacing: 2px;
+    font-size: 350%;
+    letter-spacing: 4px;
     color:#ffffff;
+    border: 3px solid #ffffff;
+    border-style:groove;
+    text-transform: uppercase;
+      
 }
 
 .meet {
@@ -385,8 +419,7 @@ text-align: right;
 
 footer {
     margin-top: 0px;
-    border-top: 2px solid ;
-    border-bottom: 2px solid ;
+    border-bottom: 3px solid #CC0000;
     background-color:black;
     text-align: center;
 }
