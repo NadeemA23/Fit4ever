@@ -288,10 +288,18 @@ text-align: right;
 .test1 , .test2 , .test3 , .test4 , .test5 , .test6 {
     background-color: #000000;
     border: 1px solid #000000;
-    margin-right: 2%;
+    margin-right: 1%;
     margin-bottom: 2%;
     color: white;
  
+}
+
+.home1 , .home2 , .home3 , .home4 {
+    margin-right: 1%;
+    padding-left: 1px;
+    object-fit: cover;
+    
+   
 }
 
 .fa-star{
@@ -312,7 +320,7 @@ text-align: right;
     color: #000000;
 }
 
-#circle-container {
+.circle-container {
     width: 300px;
     height: 300px;
     border-style: solid;
