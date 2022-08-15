@@ -5,8 +5,7 @@
 
 body{
     font-family: Exo;
-    background-color: #000000;
-    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23c0c0c0' fill-opacity='0.24' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-color: #ffffff;
 }
 .title {
     margin: 0;
@@ -15,10 +14,10 @@ body{
     float:left;
     text-align: center;
 }
-text-center{
+.text-center{
     text-align: center;
 }
-text-right{
+.text-right{
     text-align: right;
 }
 
@@ -30,13 +29,15 @@ text-right{
     float: right;
 }
 
+
 h1{
     font-family: Anton;
     letter-spacing: 4px;
     text-transform:uppercase;
-    font-size: 350%; 
-    color:rgb(255, 255, 255);
-    border-bottom: 3px solid #CC0000;
+    font-size: 300%; 
+    color:aliceblue;
+    border-bottom: 3px solid 	
+    #000000;
 }
 
 
@@ -47,13 +48,16 @@ h1{
     border-bottom: 1px solid #620f6b;
 }
 .home , .nav2 , .nav3 , .nav4{
-    border-bottom: 3px solid #CC0000;
+    border-bottom: 2px solid #000000;
 }
 
 .navbar-brand {
-    font-size: 150%;
+    font-size: 130%;
     list-style-type: none;
     letter-spacing: 0px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 
 .carousel {
@@ -62,21 +66,30 @@ h1{
 }
 
 .title1 , .title2 , .title3 {
-    border: 3px solid #ffffff;
+    border: 4px solid 	
+    #C0C0C0;
 }
 
+
+.pt1 , .pt2 , .pt3 {
+    border: 3px solid #C0C0C0;
+}
+
+
+
 .sectionbox {
-    border-top: 3px solid #CC0000;
+    border-top: 3px solid 	
+    #000000
 }
 
 .leftbox {
-    color:aliceblue;
+    color:rgb(0, 0, 0);
 }
 .middlebox{
-    color:aliceblue;
+    color:rgb(0, 0, 0);
 }
 .rightbox{
-    color:rgb(255, 240, 241);
+    color:rgb(0, 0, 0);
 }
 
 .safetybox {
@@ -84,18 +97,20 @@ h1{
     letter-spacing: 4px;
     text-transform:uppercase;
     font-size: 250%; 
-    color:rgb(255, 255, 255);
-    border: 3px solid #ffffff;
+    color:rgb(0, 0, 0);
+    border: 3px solid #C0C0C0;
       border-style:groove;
 }
 
 .logos{
     font-family: Exo;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     font-size: 150%;
     letter-spacing: 2px;
-    border-top: 3px solid #CC0000;
-    border-bottom: 3px solid #CC0000;
+    border-top: 3px solid 	
+    #000000;
+    border-bottom: 3px solid 	
+    #000000;
 }
 
 .fac {
@@ -103,14 +118,15 @@ h1{
     letter-spacing: 4px;
     text-transform:uppercase;
     font-size: 350%; 
-    color:rgb(255, 255, 255);
-    border: 3px solid #ffffff;
+    color:rgb(0, 0, 0);
+    border: 3px solid 	#C0C0C0;
       border-style:groove;
 }
 
 .homepics {
    
-    border-bottom: 3px solid #CC0000;
+    border-bottom: 3px solid 	
+    #000000;
     padding-bottom: 1%;
 }
 
@@ -185,29 +201,36 @@ h1{
   } 
 
 #email:hover { 
-    background-color: #60de60;
+    background-color: #000000;
+    color:aliceblue;
 }
 #call:hover {
-    background-color: #60de60;
+    background-color: #000000;
+    color: aliceblue;
 }
 
 .contact {
     font-size: 250%;
     font-family: Anton;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     letter-spacing: 3px;
-    border: 3px solid #ffffff;
+    border: 3px solid 	
+    #C0C0C0;
     border-style:groove;
 }
 
 
 #email{
-    background-color:#cccccc;
+    background-color:	
+    #C0C0C0;
+    color: #000000;
 }
 
 #call {
-    background-color: #cccccc;
+    background-color: 	
+    #C0C0C0;
+    color: #000000;
 }
 
 #map {
@@ -217,8 +240,10 @@ h1{
 }
 
 .mapbox{
-    border-right: 3px solid #CC0000;
-    border-bottom: 3px solid #CC0000;
+    border-right: 3px solid 	
+    #000000;
+    border-bottom: 3px solid 	
+    #000000;
    
 }
 
@@ -226,31 +251,34 @@ h1{
     font-family: Anton;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 250%; 
-    border: 3px solid #ffffff;
+    border: 3px solid 	
+    #C0C0C0;
     border-style:groove;
     
 }
 
 .timebox{
-    border-bottom: 3px solid #CC0000;
+    border-bottom: 3px solid 	
+    #000000;
    
 }
 
 .times {
-    color: rgb(255, 255, 255);
+    color: rgb(9, 9, 9);
     font-family: Anton;
     letter-spacing: 3px;
     font-size: 250%; 
     text-transform: uppercase;
-    border: 3px solid #ffffff;
+    border: 3px solid 	
+    #C0C0C0;
     border-style:groove;
     
 }
 
 .timesp {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: exo;
     letter-spacing: 3px;
     font-size: 150%; 
@@ -329,7 +357,8 @@ h1{
 }
 
 .test1 , .test2 , .test3 , .test4 , .test5 , .test6 {
-    background-color:#cccccc;
+    background-color:	
+    #C0C0C0;
     border: 1px solid #000000;
     margin-right: 1%;
     margin-bottom: 2%;
@@ -339,7 +368,8 @@ h1{
 }
 
 .review {
-    border-bottom: 3px solid #CC0000;
+    border-bottom: 3px solid 	
+    #000000;
     padding-bottom: 2%;
 }
 
@@ -359,8 +389,9 @@ h1{
     font-family: Anton;
     font-size: 350%;
     letter-spacing: 4px;
-    color:#ffffff;
-    border: 3px solid #ffffff;
+    color:#000000;
+    border: 3px solid 	
+    #C0C0C0;
     border-style:groove;
     text-transform: uppercase;
       
@@ -419,7 +450,13 @@ h1{
 
 footer {
     margin-top: 0px;
-    border-bottom: 3px solid #CC0000;
-    background-color:black;
+    border-bottom: 3px solid #000000;
+    background-color:	
+    #A9A9A9;
     text-align: center;
+    color: #000000;
+}
+
+.homeL {
+    color:#000000;
 }
