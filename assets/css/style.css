@@ -46,7 +46,7 @@ h1{
 
 
 .container1 a:hover {
-    border-bottom: 1px solid #620f6b;
+    border-bottom: 1px solid #ffffff;
 }
 .home , .nav2 , .nav3 , .nav4{
     border-bottom: 2px solid #000000;
@@ -79,9 +79,14 @@ h1{
     #000000
 }
 
+.points {
+    display: inline-block;
+}
+
 .leftbox {
     color:rgb(0, 0, 0);
 }
+
 .middlebox{
     color:rgb(0, 0, 0);
 }
@@ -469,6 +474,18 @@ footer {
     color: #000000;
 }
 
-.homeL {
-    color:#000000;
+.homeL , .copyL {
+    color:#ffffff;
+    letter-spacing: 4px;
+}
+
+.linkL {
+    color:#ffffff;
+    border-bottom: 2px solid #C0C0C0;
+    letter-spacing: 3px;
+} 
+
+.homeL:hover{
+    color: #000000;
+    border-bottom: 2px solid #C0C0C0;
 }
