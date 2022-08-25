@@ -442,35 +442,107 @@ h1{
     background: url('https://images.pexels.com/photos/2770600/pexels-photo-2770600.jpeg?auto=compress&cs=tinysrgb&w=520&h=520&dpr=1') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    transition: 0.5;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+  
 }
 
 #circle-cover-bg1 {
     background: url('https://images.pexels.com/photos/7207546/pexels-photo-7207546.jpeg?auto=compress&cs=tinysrgb&w=750&h=450&dpr=1') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    transition: 0.5;
+    
+    
 }
 
 #circle-cover-bg2 {
     background: url('https://images.pexels.com/photos/6288087/pexels-photo-6288087.jpeg?auto=compress&cs=tinysrgb&w=500&h=450&dpr=1') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    transition: 0.5;
+    
 }
 
 #circle-cover-bg3 {
     background: url('https://images.pexels.com/photos/8217858/pexels-photo-8217858.jpeg?auto=compress&cs=tinysrgb&w=620&h=450&dpr=1') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    transition: 0.5;
 }
 #circle-cover-bg4 {
-    background: url('https://images.pexels.com/photos/8217858/pexels-photo-8217858.jpeg?auto=compress&cs=tinysrgb&w=620&h=450&dpr=1') no-repeat center center;
+    background: url('https://images.pexels.com/photos/7129459/pexels-photo-7129459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    transition: 0.5;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
 }
 #circle-cover-bg5 {
-    background: url('https://images.pexels.com/photos/8217858/pexels-photo-8217858.jpeg?auto=compress&cs=tinysrgb&w=620&h=450&dpr=1') no-repeat center center;
+    background: url('https://images.pexels.com/photos/2098707/pexels-photo-2098707.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    transition: 0.5;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
 }
+
+#circle-cover-bg a ,#circle-cover-bg1 a,#circle-cover-bg2 a,#circle-cover-bg3 a,#circle-cover-bg4 a,#circle-cover-bg5 a {
+  opacity: 1;
+  transform: scale(0);
+  transition: 0.8s;
+  color: #ffffff;
+  display:inline-block;
+  margin-top: 10%; 
+   border-width: 10%;
+   color: #000000;
+}
+
+#pnumber {
+  background-color:aliceblue;
+  opacity: 50%;
+  width: 90%;
+}
+
+#pnumber:hover {
+  background-color: rgba(113, 109, 109, 0.5);
+  color: aliceblue;
+}
+
+
+#circle-cover-bg h1 ,#circle-cover-bg1 h1, #circle-cover-bg2 h1, #circle-cover-bg3 h1, #circle-cover-bg4 h1, #circle-cover-bg5 h1{
+  opacity: 1;
+  transform: scale(0);
+  transition: 0.8s;
+  color: #ffffff;
+  display:inline-block;
+  margin-top: 10%;
+
+}
+
+#circle-cover-bg:hover, #circle-cover-bg1:hover, #circle-cover-bg2:hover, #circle-cover-bg3:hover, #circle-cover-bg4:hover, #circle-cover-bg5:hover{
+  box-shadow: 0 0 0 200px rgba(69, 67, 67, 0.5) inset;
+}
+
+#circle-cover-bg:hover a, #circle-cover-bg:hover h1,
+#circle-cover-bg1:hover a, #circle-cover-bg1:hover h1,
+#circle-cover-bg2:hover a, #circle-cover-bg2:hover h1,
+#circle-cover-bg3:hover a, #circle-cover-bg3:hover h1,
+#circle-cover-bg4:hover a, #circle-cover-bg4:hover h1,
+#circle-cover-bg5:hover a, #circle-cover-bg5:hover h1{
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+
 
 
 footer {
@@ -564,42 +636,7 @@ footer {
     margin: 0 auto;
   }
   
-  .hex h1, .hex p {
-    width: 100%;
-    padding: 5%;
-    box-sizing:border-box;
-    font-weight: 300;
-    opacity: 0;
-  }
-  
-  #demo1 {
-    color: #F5CE95;
-    text-transform: capitalize;
-      text-align: center;
-    bottom: 50%;
-    padding-top:50%;
-    font-size: 1.5em;
-    z-index: 1;
-  }
-  .hex h1:before, .hex h1:after {
-    display: inline-block;
-    margin: 0 0.5em;
-    width: 0.25em;
-    height: 0.03em;
-    background: #ffffff;
-    content: '';
-    vertical-align: middle;
-    transition: all 0.3s;
-    text-align:center;
-  }
-  
-  #demo2 {
-  top: 50%;
-  text-align: center;
-  text-transform: uppercase;
-      
-  }
-  
+
   .img {
     position: absolute;
     top: 0;
@@ -632,21 +669,11 @@ footer {
   
   /*** HOVER EFFECT  **********************************************************************/
   
-  
-  
-  .hexLink:hover h1, .hexLink:focus h1,
-  .hexLink:hover p, .hexLink:focus p{
-  opacity:1;
-  transition: 0.8s;
-  }
-  
-  
   .hexIn:hover .img:before,
-  .hexIn:hover .img:after,
-  .hexIn:hover .hexLink {
-    opacity: 1;
-  }
-  
+.hexIn:hover .img:after,
+.hexIn:hover .hexLink {
+  opacity: 1;
+}
   
   /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
   @media (min-width:1201px) { 
@@ -704,9 +731,5 @@ footer {
       #hexGrid {
           font-size: 8px;
       }
-    
-  
-    
-   
   }
   
