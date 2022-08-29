@@ -60,6 +60,23 @@ h1{
     text-transform: uppercase;
     font-weight: 500;
 }
+@media (min-width: 1200px) and (max-width: 1500px) {
+   .fa-facebook {
+       display: none ;
+   }
+   .fa-instagram {
+    display: none ;
+}
+.fa-twitter {
+  display: none ;
+}
+}
+
+@media (max-width: 300px) {
+  .nav-item {
+    font-size: 50%;
+  }
+}
 
 
 .carousel {
@@ -176,6 +193,26 @@ h1{
 
     text-align: left;
 }
+
+@media (max-width: 1000px) { 
+  .home1 ,.home3{
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+  .home2 ,.home4{
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) { 
+  .homepics{
+    display: none;
+  }
+  }
+
+
 
 
   .fa-facebook {
@@ -326,9 +363,18 @@ h1{
   background-image: url("https://img.freepik.com/free-photo/young-fitness-man-studio_7502-5008.jpg?w=1480&t=st=1661545809~exp=1661546409~hmac=774ae58ebdc8344f6d2a345025e6b2543dbd02722b6bfca49a8ea13bc58f6d57");
   justify-content: center;
   align-items: center;
+  position: relative;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
+  overflow:scroll;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .form-section {
+    size: 50%;
+  }
 }
 
 .form{
@@ -388,10 +434,17 @@ h1{
     border: 1px solid #000000;
     color: rgb(0, 0, 0);
       border-style:groove;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
       width: 50%;
+      margin-right: 1%;
+      margin-bottom: 1%;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .test2 , .test4 , .test6 {
+  display: none;
+  }
 }
 
 
@@ -569,6 +622,7 @@ footer {
     #363945;
     text-align: center;
     color: #000000;
+    overflow: hidden;
 }
 
 .homeL , .copyL {
