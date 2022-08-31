@@ -113,7 +113,7 @@ The home page consists of a 4 image carousel which auto starts but also includes
 - Why us     - Showing points why users should choose us
 - Member Perks- Showing member perks 
 
-## Your Safety Matters 
+### Your Safety Matters 
 
 Showing 4 safety logos across page with a description
 - DISABLED ACCESS WITH RAMPS AND LIFT
@@ -121,29 +121,29 @@ Showing 4 safety logos across page with a description
 - TRAINED FIRST AIDER ON PREMISES
 - REGULARLY CLEANED AND SANITISED
 
-## Our Facilities
+### Our Facilities
 Few pictures showing what failities available at the gym
 
-## Reviews
+### Reviews
 Review section showing users reviews from previous satisfied customers.
 
-## Where to find us
+### Where to find us
 Map section which zooms in and out with address specified
 
-## Contact us 
+### Contact us 
 Conatins 2 buttons which have a hover effect which once clicked open up in new tab 
 - Email us
 - Call us
 
-## Opening times
+### Opening times
 Clearly show opening hours with certain days.
 
 # Trainers Page contents
 
-## Video
+### Video
 page contains a clear video which jatches in with the scheme and helps users engage with the site more
 
-## Info box
+### Info box
 Why Choose Personal Trainers?
 - Contains information / benefits to why the user should consider having a personal trainer
 
@@ -156,13 +156,13 @@ Your sessions
 ### Image 
 Image of a personal trainer and his client whilst in a session
 
-## Testimonials
+### Testimonials
 Testimonails section showing users experience from previous satisfied PT customers.
 
-## Meet the trainers
+### Meet the trainers
 This section inc;udes 6 images of personal trainers in a circle container format , which once hovered over shows the name and phone number which is displayed as a button which you can click and directly call.
 
-# Gallery & Sign up page
+### Gallery & Sign up page
 
 ## Gallery
 Gallery page shows a attractive gallery in the design of hexagons which once hovered over highlights the current image
@@ -188,10 +188,73 @@ Sign up page consists of a background with a sign up form which once completed t
 - Used to store code for the project after being pushed.
 
 [Git](https://git-scm.com/)
-Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+- Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 
 [Gitpod](https://www.gitpod.io/)
-Used as the development environment.
+- Used as the development environment.
+
+[Balsamiq](https://www.figma.com/)
+- Used to create the wireframes for the project.
+
+[Pexels](https://www.pexels.com/)
+- Access to non-copyright stock images
+
+[Bootstrap](https://getbootstrap.com/)
+- Obtained some code and reseacrched and learnt various coding methods
+
+# Testing
+
+## User Stories
+
+1. As a first-time visitor i want to easily navigate through the page using the nav bar.
+2. As a first-time visitori want to easily contact personal trainers.
+3. As a first-time visitor i want to easily complete the sign up form.
+4. As a first-time visitor i want to easily access the information and see opening hours
+
+## Lighthouse
+
+Lighthouse is a very good & useful tool found in chrome developor and is used to show the websites 
+- Performance
+- Accessibility
+- Best Practices
+- SEO
+
+![Lighthouse screenshot](assets/images/lighthouse.png)
+
+As shown above initially my site was not too bad overall , which i then improved on to get the best i can.
+
+## HTML and CSS Validation
+
+I often validated my HTML and CSS code whilst building the website to avoid making the same small errors and to decrease work load at end of project.
+Upon running my HTML code now i encountered 1 error shown below, this was easily fixed by changing the incorrect icon type to image/x-icon.
+![validator screenshot](assets/images/validator.png)
+
+
+## Credits
+
+Throughout this website i have used numerous sources for where ive got my information :
+
+[Pexels](https://www.pexels.com/)
+- Access to non-copyright stock images
+
+[Youtube](https://www.youtube.com/)
+- Obtained video 
+
+[Freepik](https://www.freepik.com/free-photo/young-fitness-man-studio_8990574.htm#query=4k%20gym&position=0&from_view=search)
+- Access to non-copyright stock images
+
+[Shutterstock](https://www.shutterstock.com/)
+- Access to non-copyright stock images
+
+[Bootstrap](https://getbootstrap.com/)
+- Obtained some code and reseacrched and learnt various coding methods
+
+
+
+
+
+
+
 
 
 
