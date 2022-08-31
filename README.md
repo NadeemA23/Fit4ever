@@ -1,108 +1,204 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![CI logo](assets/images/weblogo.png)
 
-Welcome NadeemA23,
+This website is designed to promote a newly opened state of the art gym in cardiff. The gym also specialises in P.T (Personal trainers} who can be privatley hired, with there contact number displayed.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The website is made up of the following pages:
+ 1. Home
+ 2. Gallery	
+ 3. Trainers
+ 4. Sign Up
 
-## Gitpod Reminders
+ The objectives of this website are :
+- To advertise the newly opened gym
+- Show a gallery of the gym and pictures of the facilities
+- Advertise the pricing
+- Reveal contact details of personal trainers
+- Easy flowing website with contact details and location
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+What the audience will be looking for:
+Clear information on pricing & location
+informative website with clear links 
+Easy contact information 
+easily joinable
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## Strategy:
+Fit4ever target audience:
 
-Another blue button should appear to click: _Open Browser_.
+- Male and Female
+- Age 13+
+- Interested in getting Fit
+- Interested in working as a personal trainer
+- Interested in hiring a personal trainer
+- Interested in joining a gym
+- Interested in joining fitness classes
+- Anyone who wants to maintain there fitness levels
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+What these users would be looking for:
 
-A blue button should appear to click: _Make Public_,
+- Easy site with appealing information
+- Informative website with visible reviews
+- Clear contact methods
+- Easily sign up / request call back
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Structure:
 
-To log into the Heroku toolbelt CLI:
+This is a multi page website with the following pages:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+1. Home
+2. Gallery	
+3. Trainers
+4. Sign Up
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+On each page the social media links are included in the nav bar with the current page highlighted so user can easily identify which page they are on.The navigation links also highlight and underline when you hover over for easy use to know which page you will be navigating to next.
 
-------
+By having multiple pages allows for good structure/flow , allows audience to freely move accross pages with organised sections knowing which page contains certaon information.
 
-## Release History
+## Scope:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+In order to get the correct info and business ideas across , the website will contain these features
+- Header/logo in top left of nav bar
+- menu/nav bar to easily navigate accross pages with nav links being highlighted on hover
+- Picture carousel/slideshow on homepage with next/prev arrows
+- Gallery of images on seperate page
+- Review section
+- Testimonial section
+- Contact & email us buttons which open up a new tab
+- Links to social media in nav bar
+- Map with opening times section
+- Footer including Quick links to easily navigate to all pages
+- Video on trainers page to make page more appealing and to catch users attention
+- Sign up form for user to get a call back to complete sign up 
+- Same colour scheme / design throughout page.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Surface:
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The colour scheme for my website is a contrast between grey , white & black , after trying a few different themes i decided this option looked the most appealing with the section headers/titles in a black text box with white writing . Each section of the page should have a single line border above/below to  show users clearly its a seperate section.
+The fonts picked are from Google fonts, with symbols used throughout page abtained from font-awesome.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+The layout used for the site should be consistent throughout keeping same style/design & colour.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Features:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+This is a fully responsive website with the following pages :
+1. Home
+2. Gallery	
+3. Trainers
+4. Sign Up
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+The font on each page in consistent and the same , i used the same fonts which were between 
+- Font Roboto
+- Font Anton
+- Font exo
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Nav Bar:
+The nav bar is full width accross the page which when it collapses into smaller viewing screeen eg tablet & phone device it collapses into a tab button which once clicked opens the nav.
+The Nav bar highlights which page your currently on and highlights and underlines when user hovers above the other page links. The nav bar sits above the carousel and is in the same posiition throghout the page.
+The nav bar has site logo on top left with social media links on top right , which have been keptin the same colour scheme which also hover too.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Footer:
+The footer is consistent with the nav bar using the same colour scheme with quick links which can be used to navigate to other site pages, the footer has similar hover effect.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+# Home page contents:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Carousel:
+The home page consists of a 4 image carousel which auto starts but also includes next/previous arrows with tabs at bottom to easily naviagte through the slides.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Information box:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- Our Prices - Showing clear prices for certsin groups & available discounts shown
+- Why us     - Showing points why users should choose us
+- Member Perks- Showing member perks 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Your Safety Matters 
 
-------
+Showing 4 safety logos across page with a description
+- DISABLED ACCESS WITH RAMPS AND LIFT
+- 24/7 CCTV
+- TRAINED FIRST AIDER ON PREMISES
+- REGULARLY CLEANED AND SANITISED
 
-## FAQ about the uptime script
+## Our Facilities
+Few pictures showing what failities available at the gym
 
-**Why have you added this script?**
+## Reviews
+Review section showing users reviews from previous satisfied customers.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Where to find us
+Map section which zooms in and out with address specified
 
-**How will this affect me?**
+## Contact us 
+Conatins 2 buttons which have a hover effect which once clicked open up in new tab 
+- Email us
+- Call us
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Opening times
+Clearly show opening hours with certain days.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+# Trainers Page contents
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Video
+page contains a clear video which jatches in with the scheme and helps users engage with the site more
 
-**So….?**
+## Info box
+Why Choose Personal Trainers?
+- Contains information / benefits to why the user should consider having a personal trainer
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Benefits of a Personal Trainers?
+- Contains points to why the user should have a personal trainer
 
-**Can I opt out?**
+Your sessions
+- Some information about what your sessions will include
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Image 
+Image of a personal trainer and his client whilst in a session
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Testimonials
+Testimonails section showing users experience from previous satisfied PT customers.
 
-**Anything more?**
+## Meet the trainers
+This section inc;udes 6 images of personal trainers in a circle container format , which once hovered over shows the name and phone number which is displayed as a button which you can click and directly call.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+# Gallery & Sign up page
 
----
+## Gallery
+Gallery page shows a attractive gallery in the design of hexagons which once hovered over highlights the current image
 
-Happy coding!
+## Sign up page 
+Sign up page consists of a background with a sign up form which once completed the user recieves a call back to complete sign up process which includes payment etc.
+
+# Technologies Used:
+
+[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- Used as the basic building block for the project and to structure the content.
+
+[CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+- Used as the basic building block for the project and to structure the content.
+
+[Google Fonts](https://fonts.google.com/)
+- Used as the basic building block for the project and to structure the content.
+
+[Font Awesome](https://fontawesome.com/)
+- Used as the basic building block for the project and to structure the content.
+
+[GitHub](https://github.com/)
+- Used to store code for the project after being pushed.
+
+[Git](https://git-scm.com/)
+Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+
+[Gitpod](https://www.gitpod.io/)
+Used as the development environment.
+
+
+
+
+
+
+
+
+
+
