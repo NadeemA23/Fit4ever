@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 
+
 body{
     font-family: Exo;
     background-color: #f5f5f5;
@@ -277,10 +278,10 @@ h1{
     color: #000000;
 }
 
-#map {
+#map1 {
 	background-repeat: no-repeat;
     display:inline-block;    
-    width: 100%;
+    width:100%;
 }
 
 .mapbox{
