@@ -374,7 +374,7 @@ h1{
 }
 
 .signup{
-  background-image: url("https://img.freepik.com/free-photo/young-fitness-man-studio_7502-5008.jpg?w=1480&t=st=1661545809~exp=1661546409~hmac=774ae58ebdc8344f6d2a345025e6b2543dbd02722b6bfca49a8ea13bc58f6d57");
+  background-image: url("https://img.freepik.com/free-photo/young-fitness-man-studio_7502-5008.jpg?w=1480&t=st=1662064329~exp=1662064929~hmac=a0e2e36c40900e05b1d1fff7ef57a82fa7e0b523c7c53bb937f932c309067c6a");
   justify-content: center;
   align-items: center;
   position: relative;
@@ -463,11 +463,6 @@ h1{
     padding-left: 0%;
     margin-top: 5%;
 }
-}
-@media only screen and (max-width: 1300px) {
-  .circle-container , #circle-cover-bg , #circle-cover-bg1, #circle-cover-bg2, #circle-cover-bg3, #circle-cover-bg4 ,#circle-cover-bg5{
-  
-  }
 }
 
 
@@ -624,7 +619,7 @@ h1{
    color: #000000;
 }
 
-#pnumber {
+#pnumber ,#pnumber1 ,#pnumber2 ,#pnumber4 ,#pnumber5 ,#pnumber3{
   background-color:aliceblue;
   opacity: 50%;
   width: 90%;
