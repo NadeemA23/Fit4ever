@@ -36,11 +36,11 @@
             <li class="nav-item">
                 <a class="nav-link navbar-brand mx-4 px-4  mt-lg-0 nav2" href="trainers.html">Personal Trainers</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link navbar-brand mx-4 px-4  mt-lg-0 nav3" href="gallery.html">Gallery</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link navbar-brand mx-4 px-4 mt-lg-0 nav4" href="sign.html">Sign Up</a>
+            <li class="nav-item active">
+                <a class="nav-link navbar-brand mx-4 px-4 mt-lg-0 nav4" href="sign.html">sign Up</a>
             </li>
         </ul>
         <a class="navbar-brand" aria-label="Facebook Link" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
@@ -51,9 +51,9 @@
   
   
     </nav>
-  <div class="container-fluid signform">
+  <div class="signform">
     <section class="form-section">
-      <form class="form" method="POST">
+      <form class="form" action="https://formdump.codeinstitute.net/" method="post" target="_blank">
         <h2 class="h2sign">Lets Get You Signed Up!</h2>
         <h3 class="h3sign text-center">complete the form and our team will call you to complete the sign up process</h3>
         <div class="form-row pt-3">
@@ -70,8 +70,9 @@
             <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
           </div>
           <div class="form-group col-lg-6 col-md-12 col-sm-12">
-            <label for="inputPhone">Mobile Number</label>
-            <input type="number" class="form-control" id="inputPhone" placeholder="Mobile Number" required>
+            <label for="phone">Enter your phone number:</label>
+            <input type="tel" id="phone" class="form-control" name="phone" pattern="[0-9]{5}-[0-9]{6}" required>
+            <small>Format: 12345-123456 </small>
           </div>
         </div>
         <div class="form-group">
