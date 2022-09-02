@@ -34,7 +34,7 @@ body {
   float: right;
 }
 
-h1, h2 {
+h1 , #ptitle , #ptitle1 , #ptitle2, #ptitle3, #ptitle4 , #ptitle5 {
   font-family: Anton;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -63,19 +63,6 @@ h1, h2 {
   font-weight: 500;
 }
 
-@media (min-width: 1200px) and (max-width: 1500px) {
-  .fa-facebook {
-    display: none;
-  }
-
-  .fa-instagram {
-    display: none;
-  }
-
-  .fa-twitter {
-    display: none;
-  }
-}
 
 @media (min-width: 280px) and (max-width: 1500px) {
   .navbar-brand {
@@ -236,34 +223,6 @@ h1, h2 {
   .homepics {
     display: none;
   }
-}
-
-.fa-facebook {
-  color: #ffffff;
-  font-size: 300%;
-}
-
-.fa-twitter {
-  color: #ffffff;
-  font-size: 300%;
-}
-
-.fa-instagram {
-  color: #ffffff;
-  font-size: 300%;
-}
-
-
-.fa-facebook:hover {
-  color: #517fa4;
-}
-
-.fa-twitter:hover {
-  color: #517fa4;
-}
-
-.fa-instagram:hover {
-  color: #517fa4;
 }
 
 #email:hover {
@@ -706,8 +665,48 @@ footer {
   color: #000000;
 }
 
-.homeL,
+.fa-facebook {
+  color: #ffffff;
+  font-size: 130%;
+}
+
+.fa-twitter {
+  color: #ffffff;
+  font-size: 130%;
+}
+
+.fa-instagram {
+  color: #ffffff;
+  font-size: 130%;
+}
+
+.footersocials {
+  font-size: 130%;
+  list-style-type: none;
+  letter-spacing: 4px;
+  margin-bottom: 0px;
+}
+
 .copyL {
+  margin-bottom: 2px;
+  color: #ffffff;
+  letter-spacing: 4px;
+}
+
+.fa-facebook:hover {
+  color: #517fa4;
+}
+
+.fa-twitter:hover {
+  color: #517fa4;
+}
+
+.fa-instagram:hover {
+  color: #517fa4;
+}
+
+
+.homeL{
   color: #ffffff;
   letter-spacing: 4px;
 }
