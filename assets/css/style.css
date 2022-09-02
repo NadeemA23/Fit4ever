@@ -180,7 +180,6 @@ h1 {
 }
 
 .homepics {
-
   border-bottom: 3px solid #000000;
   padding-bottom: 1%;
 }
@@ -767,8 +766,6 @@ footer {
   visibility: hidden;
   outline: 1px solid transparent;
   /* fix for jagged edges in FF on hover transition */
-  -webkit-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
-  -ms-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
   transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
   transition: all 0.5s;
 }
@@ -787,8 +784,6 @@ footer {
   text-align: center;
   color: #fff;
   overflow: hidden;
-  -webkit-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
-  -ms-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
   transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
 }
 
@@ -810,7 +805,6 @@ footer {
   background-position: center center;
   background-size: cover;
   overflow: hidden;
-  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
