@@ -52,7 +52,7 @@ This is a multi page website with the following pages:
 3. Trainers
 4. Sign Up
 
-On each page the social media links are included in the nav bar with the current page highlighted so user can easily identify which page they are on.The navigation links also highlight and underline when you hover over for easy use to know which page you will be navigating to next.
+On each page the social media links are included in the footer with the current page highlighted so user can easily identify which page they are on.The navigation links also highlight and underline when you hover over for easy use to know which page you will be navigating to next.
 
 By having multiple pages allows for good structure/flow , allows audience to freely move accross pages with organised sections knowing which page contains certaon information.
 
@@ -100,7 +100,7 @@ The Nav bar highlights which page your currently on and highlights and underline
 The nav bar has site logo on top left with social media links on top right , which have been keptin the same colour scheme which also hover too.
 
 ## Footer:
-The footer is consistent with the nav bar using the same colour scheme with quick links which can be used to navigate to other site pages, the footer has similar hover effect.
+The footer is consistent with the nav bar using the same colour scheme with quick links which can be used to navigate to other site pages, the footer has similar hover effect.The footer contains social links too.
 
 # Home page contents:
 
@@ -165,7 +165,7 @@ This section inc;udes 6 images of personal trainers in a circle container format
 # Gallery & Sign up page:
 
 ## Gallery:
-Gallery page shows a attractive gallery in the design of hexagons which once hovered over highlights the current image
+Gallery page shows a attractive gallery in the design of hexagons which once hovered over highlights the current image. Gallery was originally a plain gallery but after speaking to my tutot Guido thought it was better to take it up a level. Researched hexagon gallery and edited it to suit.
 
 ## Sign up page: 
 Sign up page consists of a background with a sign up form which once completed the user recieves a call back to complete sign up process which includes payment etc.
@@ -199,6 +199,18 @@ Sign up page consists of a background with a sign up form which once completed t
 [Pexels](https://www.pexels.com/)
 - Access to non-copyright stock images
 
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- Used to validate all CSS code written and used in this webpage.
+
+[W3C Markup Validation Service](https://validator.w3.org/)
+- Used to validate all HTML code written and used in this webpage.
+
+[Image](https://imagecompressor.com/)
+- image compressor
+
+[Image](https://imageresizer.com/resize/download/6311408c31380d001296030b)
+- image resizer
+
 [Bootstrap](https://getbootstrap.com/)
 - Obtained some code and reseacrched and learnt various coding methods
 
@@ -206,11 +218,18 @@ Sign up page consists of a background with a sign up form which once completed t
 
 ## User Stories:
 
-1. As a first-time visitor i want to easily navigate through the page using the nav bar.
-2. As a first-time visitori want to easily contact personal trainers.
-3. As a first-time visitor i want to easily complete the sign up form.
-4. As a first-time visitor i want to easily access the information and see opening hours
+1. As a first-time visitor i want to easily navigate through the page using the nav bar. As seen below you can see the naviagtion bar is easy to use
+and it higlights which page your currently on.
+![Navbar screenshot](assets/images/navbarreadme.png)
 
+2. As a first-time visitori want to easily contact personal trainers.
+As seen below the page is designed so you can easily contact the personal trainers by hovering over there image which then shows there name and contact number which you can call directly by clicking the contact number.
+![Navbar screenshot](assets/images/trainerreadme.png)
+3. As a first-time visitor i want to easily complete the sign up form.As shown below the user can easily fill out the form which then redirects you to show form has been completed.
+![Navbar screenshot](assets/images/formreadme.png)
+4. As a first-time visitor i want to easily access the information and see opening hours.
+As shown below the user can easily find information and opening hours in clear seperate sections.The user can easily find address with a map included or use the call/email buttons if they require more assistance.
+![Navbar screenshot](assets/images/inforeadme.png)
 ## Lighthouse:
 
 Lighthouse is a very good & useful tool found in chrome developor and is used to show the websites 
@@ -223,12 +242,62 @@ Lighthouse is a very good & useful tool found in chrome developor and is used to
 
 As shown above initially my site was not too bad overall , which i then improved on to get the best i can.
 
+I made an effort to improve this by reducing image sizes , adding preconnect to certain links , addin meta , improving layout which all led to my scores improving even more!
+![Lighthouse screenshot](assets/images/readmescore.png)
+
 ## HTML and CSS Validation:
 
 I often validated my HTML and CSS code whilst building the website to avoid making the same small errors and to decrease work load at end of project.
 Upon running my HTML code now i encountered 1 error shown below, this was easily fixed by changing the incorrect icon type to image/x-icon.
 ![validator screenshot](assets/images/validator.png)
 
+Upon submition site has 0 errors.
+![validator screenshot](assets/images/validator1.png)
+![validator screenshot](assets/images/validator2.png)
+## Known bugs and fixes:
+
+As part of my testing I wanted to make sure that all of my clickable social links worked & opened up in a new page, I found that the links opened in the same window. I used the target _blank to open a new window and used the 'rel="noreferrer"' to all external links as this is considered best practice.
+
+I removed the social icons from the top navbar from my tutor advise and also in case it deterred users from the site , instead i moved them into the footer.
+
+I converted most images to .webp to improve load times .
+
+Initially my carousel was too big and after getting feedback from my tutor Guido i put more time into the carousel to get it to the perfect size.This was easily resolved by resizing the images and the carousel. i also converted and compressed the images for faster load times.
+
+As part of my testing i encountered an error on trainers.html which was not appearing for the other pages,after investigating i realised i had used a h1 heading more than once which was bugging the site.This was easily resolved by changing the h1 to h2.
+
+Throughout the entire process, I used Google Dev Tools to debug the website and its layout, this allowed me to check the responsiveness of the site and quickly debug any issues that I came across.
+
+## Deployment:
+1. Log in to GitHub
+2. In your Repository section, select the project repository that you want to deploy
+3. In the menu located at the top of this section, click 'Settings'
+4. Select 'Pages' on the left-hand menu - this is around halfway down
+5. In the source section, select branch 'Master' and save
+6. The page is then given a site URL which you will see above the source section, it will look like the following:
+
+![validator screenshot](assets/images/Deploymentreadme.png)
+
+Please note it can take a while for this link to become fully active.
+
+### Forking the GitHub Repository
+
+If you want to make changes to your repository without affecting it, you can make a copy of it by 'Forking' it. This ensures your original repository remains unchanged.
+
+1. Find the relevant GitHub repository
+2. In the top right corner of the page, click the Fork button (under your account)
+3. Your repository has now been 'Forked' and you have a copy to work on
+
+### Cloning the GitHub Repository
+
+Cloning your repository will allow you to download a local version of the repository to be worked on. Cloning can also be a great way to backup your work.
+
+1. Find the relevant GitHub repository
+2. Press the arrow on the Code button
+3. Copy the link that is shown in the drop-down
+4. Now open Gitpod & select the directory location where you would like the clone created
+5. In the terminal type 'git clone' & then paste the link you copied in GitHub
+6. Press enter and your local clone will be created.
 
 ## Credits:
 
@@ -249,8 +318,8 @@ Throughout this website i have used numerous sources for where ive got my inform
 [Bootstrap](https://getbootstrap.com/)
 - Obtained some code and reseacrched and learnt various coding methods
 
-
-
+## Acknowledgements:
+I would like to thank my course mentor Guido Cecilio for his support and guidance throughout the course of the project.
 
 
 
