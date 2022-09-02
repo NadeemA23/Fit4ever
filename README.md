@@ -81,6 +81,19 @@ The fonts picked are from Google fonts, with symbols used throughout page abtain
 
 The layout used for the site should be consistent throughout keeping same style/design & colour.
 
+## Skeleton: 
+
+Please note the actual design has changed slightly since these wireframes.
+i initially was using Balsamiq to create the wireframes however the application crashed and will not load again causing me to loose the first produced wireframes.I have attempted to install Balsamiq a few times to the same result. 
+
+ive since used an alternative site however with more time i could have produced more detailed wire frames like the first ones.
+
+![wireframe](assets/wireframes/homewire.png)
+![wireframe](assets/wireframes/trainerswire.png)
+![wireframe](assets/wireframes/gallerywire.png)
+![wireframe](assets/wireframes/signupwire.png)
+
+
 ## Features:
 
 This is a fully responsive website with the following pages :
@@ -213,6 +226,9 @@ Sign up page consists of a background with a sign up form which once completed t
 
 [Bootstrap](https://getbootstrap.com/)
 - Obtained some code and reseacrched and learnt various coding methods
+
+[uizard](https://uizard.io/)
+- Replacement application to create wireframes since balsamiq stopped working.
 
 # Testing
 
