@@ -553,7 +553,7 @@ h1 {
   background: url('https://images.pexels.com/photos/2770600/pexels-photo-2770600.jpeg?auto=compress&cs=tinysrgb&w=520&h=520&dpr=1') no-repeat center center;
   height: 100%;
   border-radius: 50%;
-  transition: 0.5ms;
+  transition: 1s;
   justify-content: center;
   align-items: center;
   background-position: center;
@@ -565,7 +565,7 @@ h1 {
   background: url('https://images.pexels.com/photos/7207546/pexels-photo-7207546.jpeg?auto=compress&cs=tinysrgb&w=750&h=450&dpr=1') no-repeat center center;
   height: 100%;
   border-radius: 50%;
-  transition: 0.5ms;
+  transition: 1s;
   justify-content: center;
   align-items: center;
   background-position: center;
@@ -576,7 +576,7 @@ h1 {
   background: url('https://images.pexels.com/photos/5093590/pexels-photo-5093590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
   height: 100%;
   border-radius: 50%;
-  transition: 0.5ms;
+  transition: 1s;
   justify-content: center;
   align-items: center;
   background-position: center;
@@ -588,7 +588,7 @@ h1 {
   background: url('https://images.pexels.com/photos/8217858/pexels-photo-8217858.jpeg?auto=compress&cs=tinysrgb&w=620&h=450&dpr=1') no-repeat center center;
   height: 100%;
   border-radius: 50%;
-  transition: 0.5ms;
+  transition: 1s;
   justify-content: center;
   align-items: center;
   background-position: center;
@@ -599,7 +599,7 @@ h1 {
   background: url('https://images.pexels.com/photos/6077944/pexels-photo-6077944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
   height: 100%;
   border-radius: 50%;
-  transition: 0.5ms;
+  transition: 1s;
   justify-content: center;
   align-items: center;
   background-position: center;
@@ -610,7 +610,7 @@ h1 {
   background: url('https://images.pexels.com/photos/7588013/pexels-photo-7588013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
   height: 100%;
   border-radius: 50%;
-  transition: 0.5ms;
+  transition: 1s;
   justify-content: center;
   align-items: center;
   background-position: center;
