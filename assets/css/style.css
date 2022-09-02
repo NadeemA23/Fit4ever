@@ -2,12 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-
-
 body {
   font-family: Exo;
   background-color: #f5f5f5;
-
 }
 
 .title {
@@ -34,7 +31,8 @@ body {
   float: right;
 }
 
-h1 , #ptitle , #ptitle1 , #ptitle2, #ptitle3, #ptitle4 , #ptitle5 {
+  /* Main heading logo styling */
+h1 {
   font-family: Anton;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -43,6 +41,7 @@ h1 , #ptitle , #ptitle1 , #ptitle2, #ptitle3, #ptitle4 , #ptitle5 {
   border-bottom: 3px solid #000000;
 }
 
+  /* Nav bar styling */
 .container1 a:hover {
   border-bottom: 1px solid #ffffff;
 }
@@ -67,11 +66,13 @@ h1 , #ptitle , #ptitle1 , #ptitle2, #ptitle3, #ptitle4 , #ptitle5 {
 @media (min-width: 280px) and (max-width: 1500px) {
   .navbar-brand {
     width: 100%;
+    text-align: left;
   }
 
-  @media (max-width: 300px) {
+  @media (max-width: 380px) {
     .nav-item {
       font-size: 50%;
+      text-align: left;
     }
   }
 }
@@ -85,6 +86,7 @@ h1 , #ptitle , #ptitle1 , #ptitle2, #ptitle3, #ptitle4 , #ptitle5 {
   }
 }
 
+  /* carousel styling */
 .carousel {
   padding-top: 2px;
   border-bottom: 2px solid;
@@ -180,25 +182,25 @@ h1 , #ptitle , #ptitle1 , #ptitle2, #ptitle3, #ptitle4 , #ptitle5 {
 }
 
 .home1 {
-  padding-right: 1%;
+  padding-right: 10px;
 
   text-align: right;
 }
 
 .home2 {
-  padding-left: 1%;
+  padding-left: 10px;
 
   text-align: left;
 }
 
 .home3 {
-  padding-right: 1%;
+  padding-right: 10px;
 
   text-align: right;
 }
 
 .home4 {
-  padding-left: 1%;
+  padding-left: 10px;
 
   text-align: left;
 }
@@ -494,6 +496,8 @@ h1 , #ptitle , #ptitle1 , #ptitle2, #ptitle3, #ptitle4 , #ptitle5 {
   font-weight: 100;
 }
 
+  /* Circle image styling trainers.html */
+
 .circle-container {
   width: 300px;
   height: 300px;
@@ -656,6 +660,17 @@ h1 , #ptitle , #ptitle1 , #ptitle2, #ptitle3, #ptitle4 , #ptitle5 {
   transform: scale(1);
 }
 
+#ptitle , #ptitle1 , #ptitle2, #ptitle3, #ptitle4 , #ptitle5 {
+  font-family: Anton;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 300%;
+  color: aliceblue;
+  border-bottom: 3px solid #000000;
+}
+
+  /* Footer styling */
+
 footer {
   margin-top: 0px;
   border-bottom: 3px solid #000000;
@@ -709,6 +724,7 @@ footer {
 .homeL{
   color: #ffffff;
   letter-spacing: 4px;
+  margin: 8px;
 }
 
 .linkL {
@@ -721,6 +737,8 @@ footer {
   color: #000000;
   border-bottom: 2px solid #C0C0C0;
 }
+
+  /* Gallery styling */
 
 #hexGrid {
   display: flex;
