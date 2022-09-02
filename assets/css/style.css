@@ -72,13 +72,17 @@ h1{
   display: none ;
 }
 }
+@media (min-width: 280px) and (max-width: 1500px) {
+  .navbar-brand{
+    width: 100%;
+  }
 
 @media (max-width: 300px) {
   .nav-item {
     font-size: 50%;
   }
 }
-
+}
 
 .carousel {
     padding-top: 2px;
@@ -86,9 +90,17 @@ h1{
 }
 
 .d-block{
-  width: 100%;
-  height: 100%;
+  width: 250vh;
+  height: 80vh;
 }
+
+@media only screen and (min-width: 280px) and (max-width:1281px) {
+  .d-block {
+    width:100%;
+    height: 100%;
+  }
+}
+
 
 
 .title1 , .title2 , .title3 {
@@ -368,27 +380,30 @@ h1{
     color: black;
 }
 
-.form-section {
-    height: 900px;
-    width: 100%;
-}
+
 
 .signup{
   background-image: url("https://img.freepik.com/free-photo/young-fitness-man-studio_7502-5008.jpg?w=1480&t=st=1662064329~exp=1662064929~hmac=a0e2e36c40900e05b1d1fff7ef57a82fa7e0b523c7c53bb937f932c309067c6a");
   justify-content: center;
   align-items: center;
-  position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
-  overflow:scroll;
+  overflow:hidden;
+
 
 }
 
-@media only screen and (max-width: 600px) {
-  .form-section {
-    size: 50%;
+@media (min-width: 100px) and (max-width: 1250px) {
+  .form{
+    width: 100%;
+    height: 100%;
   }
+  .signup{
+    width: 100%;
+    height:100%
+  }
+  
 }
 
 .form{
@@ -396,7 +411,6 @@ h1{
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 800px;
-    position: absolute;
     left: 5%;
     padding: 30px;
     text-transform:uppercase;
@@ -490,6 +504,7 @@ h1{
     display: flex;
     }
 }
+
 
 
 
@@ -608,6 +623,14 @@ h1{
 
 }
 
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .circle-container{
+    width: 100%;
+    height: 100%;
+  }
+  
+}
+
 #circle-cover-bg a ,#circle-cover-bg1 a,#circle-cover-bg2 a,#circle-cover-bg3 a,#circle-cover-bg4 a,#circle-cover-bg5 a {
   opacity: 1;
   transform: scale(0);
@@ -625,7 +648,7 @@ h1{
   width: 90%;
 }
 
-#pnumber:hover {
+#pnumber:hover , #pnumber1:hover , #pnumber2:hover, #pnumber3:hover, #pnumber4:hover, #pnumber5:hover {
   background-color: rgba(113, 109, 109, 0.5);
   color: aliceblue;
 }
@@ -847,4 +870,5 @@ footer {
           font-size: 8px;
       }
   }
+  
   
