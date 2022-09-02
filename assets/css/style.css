@@ -34,7 +34,6 @@ body {
   float: right;
 }
 
-
 h1 {
   font-family: Anton;
   letter-spacing: 4px;
@@ -43,10 +42,6 @@ h1 {
   color: aliceblue;
   border-bottom: 3px solid #000000;
 }
-
-
-
-
 
 .container1 a:hover {
   border-bottom: 1px solid #ffffff;
@@ -662,12 +657,12 @@ h1 {
   color: aliceblue;
 }
 
-#circle-cover-bg h1,
-#circle-cover-bg1 h1,
-#circle-cover-bg2 h1,
-#circle-cover-bg3 h1,
-#circle-cover-bg4 h1,
-#circle-cover-bg5 h1 {
+#circle-cover-bg h2,
+#circle-cover-bg1 h2,
+#circle-cover-bg2 h2,
+#circle-cover-bg3 h2,
+#circle-cover-bg4 h2,
+#circle-cover-bg5 h2 {
   opacity: 1;
   transform: scale(0);
   transition: 0.8s;
@@ -687,17 +682,17 @@ h1 {
 }
 
 #circle-cover-bg:hover a,
-#circle-cover-bg:hover h1,
+#circle-cover-bg:hover h2,
 #circle-cover-bg1:hover a,
-#circle-cover-bg1:hover h1,
+#circle-cover-bg1:hover h2,
 #circle-cover-bg2:hover a,
-#circle-cover-bg2:hover h1,
+#circle-cover-bg2:hover h2,
 #circle-cover-bg3:hover a,
-#circle-cover-bg3:hover h1,
+#circle-cover-bg3:hover h2,
 #circle-cover-bg4:hover a,
-#circle-cover-bg4:hover h1,
+#circle-cover-bg4:hover h2,
 #circle-cover-bg5:hover a,
-#circle-cover-bg5:hover h1 {
+#circle-cover-bg5:hover h2 {
   opacity: 1;
   transform: scale(1);
 }
