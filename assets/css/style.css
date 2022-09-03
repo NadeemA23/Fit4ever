@@ -31,7 +31,7 @@ body {
   float: right;
 }
 
-  /* Main heading logo styling */
+/* Main heading logo styling */
 h1 {
   font-family: Anton;
   letter-spacing: 4px;
@@ -41,7 +41,7 @@ h1 {
   border-bottom: 3px solid #000000;
 }
 
-  /* Nav bar styling */
+/* Nav bar styling */
 .container1 a:hover {
   border-bottom: 1px solid #ffffff;
 }
@@ -78,6 +78,7 @@ h1 {
 }
 
 @media (min-width: 280px) and (max-width: 1500px) {
+
   .home,
   .nav2,
   .nav3,
@@ -86,7 +87,7 @@ h1 {
   }
 }
 
-  /* carousel styling */
+/* carousel styling */
 .carousel {
   padding-top: 2px;
   border-bottom: 2px solid;
@@ -206,6 +207,7 @@ h1 {
 }
 
 @media (max-width: 1000px) {
+
   .home1,
   .home3 {
     padding-right: 0;
@@ -432,12 +434,12 @@ h1 {
   }
 }
 
-.test1,
-.test2,
-.test3,
-.test4,
-.test5,
-.test6 {
+.test1,.rev1 , 
+.test2,.rev2 ,
+.test3,.rev3 ,
+.test4,.rev4 ,
+.test5,.rev5 ,
+.test6 ,.rev6 {
   background-color:
     #C0C0C0;
   border: 1px solid #000000;
@@ -449,9 +451,10 @@ h1 {
 }
 
 @media only screen and (max-width: 1000px) {
-  .test2,
-  .test4,
-  .test6 {
+
+  .test2, .rev2 ,
+  .test4, .rev4 ,
+  .test6 ,.rev6{ 
     display: none;
   }
 
@@ -462,23 +465,64 @@ h1 {
     display: flex;
   }
 }
+
 @media only screen and (max-width: 1300px) {
-  .testsec{
-width: auto;
-  }
-}
-@media (max-width: 990px) {
   .testsec {
-width: auto;
-padding-right: 30%;
+    width: auto;
+  }
+
+  .testh2 {
+    width: 100%;
   }
 }
-@media (max-width: 579px) {
-  .testsec {
-width: auto;
-padding-right: 0%;
+
+@media (max-width: 992px) {
+
+  .test3,
+  .test5,
+  .test1 {
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-right: 5%;
+    padding-right: 5%;
   }
 }
+@media (max-width: 775px) {
+
+  .rev3,
+  .rev5,
+  .rev1 {
+    margin-left: 0%;
+    padding-right: 5%;
+    margin-right: 0%;
+    height: 5%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 580px) {
+
+  .test3,
+  .test5,
+  .test1 {
+    margin-left: 25%;
+  }
+
+  .testim h2 {
+    font-size: 200%;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .rev3,
+  .rev5,
+  .rev1 {
+    margin-left: 25%;
+  }
+}
+
 .review {
   border-bottom: 3px solid #000000;
   padding-bottom: 2%;
@@ -512,7 +556,7 @@ padding-right: 0%;
   font-weight: 100;
 }
 
-  /* Circle image styling trainers.html */
+/* Circle image styling trainers.html */
 
 .circle-container {
   width: 300px;
@@ -676,7 +720,12 @@ padding-right: 0%;
   transform: scale(1);
 }
 
-#ptitle , #ptitle1 , #ptitle2, #ptitle3, #ptitle4 , #ptitle5 {
+#ptitle,
+#ptitle1,
+#ptitle2,
+#ptitle3,
+#ptitle4,
+#ptitle5 {
   font-family: Anton;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -685,7 +734,7 @@ padding-right: 0%;
   border-bottom: 3px solid #000000;
 }
 
-  /* Footer styling */
+/* Footer styling */
 
 footer {
   margin-top: 0px;
@@ -694,6 +743,12 @@ footer {
     #363945;
   text-align: center;
   color: #000000;
+}
+
+.galleryfooter {
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
 }
 
 .footer {
@@ -742,7 +797,7 @@ footer {
 }
 
 
-.homeL{
+.homeL {
   color: #ffffff;
   letter-spacing: 4px;
   margin: 8px;
@@ -759,7 +814,7 @@ footer {
   border-bottom: 2px solid #C0C0C0;
 }
 
-  /* Gallery styling */
+/* Gallery styling */
 
 #hexGrid {
   display: flex;
