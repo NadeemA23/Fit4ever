@@ -179,6 +179,8 @@ This section inc;udes 6 images of personal trainers in a circle container format
 
 ## Gallery:
 Gallery page shows a attractive gallery in the design of hexagons which once hovered over highlights the current image. Gallery was originally a plain gallery but after speaking to my tutot Guido thought it was better to take it up a level. Researched hexagon gallery and edited it to suit.
+[Hexagon Gallery](https://codepen.io/search/pens?q=hexagon+gallery)
+- Used this site for the hexagon gallery and research into it and applied
 
 ## Sign up page: 
 Sign up page consists of a background with a sign up form which once completed the user recieves a call back to complete sign up process which includes payment etc.
@@ -229,6 +231,9 @@ Sign up page consists of a background with a sign up form which once completed t
 
 [uizard](https://uizard.io/)
 - Replacement application to create wireframes since balsamiq stopped working.
+
+[Hexagon Gallery](https://codepen.io/search/pens?q=hexagon+gallery)
+- Used this site for the hexagon gallery and research into it and applied
 
 # Testing
 
