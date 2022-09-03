@@ -334,6 +334,9 @@ Throughout this website i have used numerous sources for where ive got my inform
 [Bootstrap](https://getbootstrap.com/)
 - Obtained some code and reseacrched and learnt various coding methods
 
+[Testimonials](https://www.findmypersonaltrainer.com/reviews/page8)
+- I used this site to obtain reviews , with more time i could have written personalised reviews.
+
 ## Acknowledgements:
 I would like to thank my course mentor Guido Cecilio for his support and guidance throughout the course of the project.
 
