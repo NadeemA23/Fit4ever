@@ -448,7 +448,7 @@ h1 {
   margin-bottom: 1%;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1000px) {
   .test2,
   .test4,
   .test6 {
@@ -460,6 +460,16 @@ h1 {
     justify-content: center;
     text-align: center;
     display: flex;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .testsec{
+width: auto;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .testsec{
+width: auto;
   }
 }
 
